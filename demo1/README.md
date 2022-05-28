@@ -35,8 +35,8 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-18.jdk/Contents/Home; cd
 ```
 
 ## edit pom.xml file
-in <build><plugins></plugins></build>
 ```xml
+<!-- in <build><plugins></plugins></build> -->
    <!--
      - add the exec maven plugin to run a Java Main method
      - to run a Java standalone application
