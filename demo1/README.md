@@ -9,6 +9,17 @@ cd ~/Downloads/java-stuff; git config user.email "jessica.chen@leocorn.com"
 
 cd ~/Downloads/java-stuff; git config --list
 cd ~/Downloads/java-stuff; git log 
+
+# copy directory command
+#check source folder
+ls -la ~/Downloads/School/ICS4/ISP/intellij
+#copy
+cp -rv ~/Downloads/School/ICS4/ISP/intellij ~/Downloads
+#check target
+ls -la ~/Downloads
+#remove source
+rm -rvf ~/Downloads/School/ICS4/ISP/intellij
+
 ```
 
 ## set up maven
